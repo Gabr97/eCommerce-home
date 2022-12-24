@@ -1,0 +1,36 @@
+@media(max-width:991px) {
+    .product-grid {
+        grid-template-columns: auto auto;
+    }
+    .product-card {
+        margin: 15px 0;
+    }
+    nav ul {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
+}
+
+@media(max-width:768px) {
+    .product-grid .product {
+        height: 200px;
+    }
+    .banner-section {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+    footer .flex div {
+        padding: 0 10px;
+    }
+    footer .newsletter h4{
+        padding: 0px;
+    }
+    footer .newsletter div {
+        padding: 5px 0;
+        justify-content: center;
+        flex-direction: column !important;
+    }
+}
